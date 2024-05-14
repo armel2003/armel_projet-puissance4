@@ -1,0 +1,29 @@
+.App {
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(7, 50px);
+    grid-template-rows: repeat(6, 50px);
+    grid-gap: 4px;
+    margin: 20px auto;
+  }
+  
+  .cell {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid black;
+    cursor: pointer;
+  }
+  
+  .player1 {
+    background-color: red;
+  }
+  
+  .player2 {
+    background-color: yellow;
+  }
+  
